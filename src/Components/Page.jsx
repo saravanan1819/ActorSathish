@@ -6,7 +6,7 @@ import ReactPlayer from 'react-player'
 import { FaInstagram } from "react-icons/fa";
 import { MdOutgoingMail } from "react-icons/md";
 import { VscArrowCircleUp } from "react-icons/vsc";
-import TeaBreakLogo from '../assets/TeaBreakLogo.png';
+import TeaBreakLogo from '../assets/TeaBreak.png';
 import { InstagramEmbed } from 'react-social-media-embed';
 import photo14 from '../assets/photo14.jpg'
 
@@ -79,7 +79,7 @@ function Page() {
              <h2>Work<span> Experience</span></h2>
              <div className='Theneer-idaivelai'>
                    <div className='logo-photo'>
-                      <img src={TeaBreakLogo}></img>
+                      <img src={TeaBreakLogo} alt='TeakBreak'></img>
                    </div>
                    <div className='logo-txt'>
                         <p className='p'>Content Creator & Artist <b style={{color:"black"}}>in Theneer Idaivelai</b></p>
